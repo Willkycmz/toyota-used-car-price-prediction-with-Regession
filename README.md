@@ -33,6 +33,9 @@ Tujuan dari proyek ini adalah:
 ## 📊 Struktur Dataset
 Dataset yang digunakan adalah **Toyota Used Car Dataset** (`toyota.csv`) yang terdiri dari **6.738 baris data** dan **9 kolom fitur**.
 
+🔗 **Link Unduh Dataset (Kaggle):**  
+👉 [Used Car Dataset - Ford and Mercedes (Kaggle)](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes) *(Gunakan file `toyota.csv` di dalam dataset tersebut)*
+
 | Nama Kolom | Tipe Data | Deskripsi |
 |---|---|---|
 | `model` | Kategorikal | Tipe/model mobil Toyota (Yaris, Corolla, Aygo, C-HR, RAV4, dll.) |
@@ -54,7 +57,7 @@ Tahapan pada notebook `Praktek.ipynb` disusun secara modular dan terstruktur:
 ### 1. Mengumpulkan Data (Data Collecting)
 - Pembahasan prinsip pengumpulan data dari sumber terbuka (*Open Data Sources*) seperti Kaggle, UCI Machine Learning Repository, Google Dataset Search Engine, dan portal data pemerintah.
 - Penentuan rumusan masalah, identifikasi fitur independen ($X$), serta penentuan target label ($y$).
-- Verifikasi ketersediaan file `toyota.csv`.
+- Verifikasi ketersediaan file `toyota.csv` yang diunduh dari [Kaggle Dataset](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes).
 
 ### 2. Data Loading
 - Membaca dan memuat dataset CSV ke dalam memori menggunakan library **Pandas** (`pd.read_csv`).
