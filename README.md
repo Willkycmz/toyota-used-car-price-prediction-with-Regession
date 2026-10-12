@@ -114,8 +114,6 @@ Model terbaik (**Gradient Boosting Regressor**) diekspor dan disimpan ke dalam f
 ```text
 ├── Praktek.ipynb        # Jupyter Notebook lengkap (Collecting s/d Modelling)
 ├── toyota.csv           # Dataset mobil bekas Toyota
-├── gbr_model.joblib     # Model Gradient Boosting tersimpan (format Joblib)
-├── gbr_model.pkl        # Model Gradient Boosting tersimpan (format Pickle)
 └── README.md            # Dokumentasi lengkap proyek
 ```
 
@@ -125,8 +123,8 @@ Model terbaik (**Gradient Boosting Regressor**) diekspor dan disimpan ke dalam f
 
 ### 1. Clone Repositori
 ```bash
-git clone https://github.com/Willkycmz/<nama-repo>.git
-cd <nama-repo>
+git clone https://github.com/Willkycmz/toyota-used-car-price-prediction-with-Regession.git
+cd toyota-used-car-price-prediction-with-Regession
 ```
 
 ### 2. Buat & Aktifkan Virtual Environment (Opsional tapi Disarankan)
